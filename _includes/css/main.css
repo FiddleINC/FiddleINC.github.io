@@ -22,10 +22,7 @@ a:focus,
 a:active,
 a.active {
     outline: 0;
-    color: #{{ site.color.primary }
-}
-
-;
+    color: #{{ site.color.primary }};
 }
 
 h1,
@@ -35,7 +32,7 @@ h4,
 h5,
 h6 {
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
 }
 
@@ -61,33 +58,21 @@ hr.star-primary:after {
 }
 
 hr.star-light {
-    border-color: #{{site.color.primary}
-}
-
-;
+    border-color: #{{site.color.primary}};
 }
 
 hr.star-light:after {
     color: #fff;
-    background-color: #{{ site.color.primary }
-}
-
-;
+    background-color: #{{ site.color.primary }};
 }
 
 hr.star-primary {
-    border-color: #{{ site.color.secondary }
-}
-
-;
+    border-color: #{{ site.color.secondary }};
 }
 
 hr.star-primary:after {
-    color: #{{ site.color.secondary }
-}
-
-;
-background-color: #fff;
+    color: #{{ site.color.secondary }};
+    background-color: #fff;
 }
 
 .img-centered {
@@ -96,10 +81,7 @@ background-color: #fff;
 
 header {
     text-align: center;
-    color:#{{site.color.primary}
-}
-
-;
+    color:#{{site.color.primary}};
 }
 
 header .container {
@@ -115,7 +97,7 @@ header img {
 header .intro-text .name {
     display: block;
     text-transform: uppercase;
-    font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-size: 2em;
     font-weight: 700;
 }
@@ -198,10 +180,7 @@ section h2 {
 
 section.success {
     color: #fff;
-    background: #{{ site.color.primary }
-}
-
-;
+    background: #{{ site.color.primary }};
 }
 
 @media(max-width:767px) {
@@ -231,14 +210,7 @@ section.success {
     width: 100%;
     height: 100%;
     opacity: 0;
-
-    background: rgba( {
-                {
-                site.color.primary-rgb
-            }
-        }
-
-        , .9);
+    background: rgba({{ site.color.primary-rgb }},.9);
     -webkit-transition: all ease .5s;
     -moz-transition: all ease .5s;
     transition: all ease .5s;
@@ -292,11 +264,8 @@ section.success {
 .btn-outline:active,
 .btn-outline.active {
     border: solid 2px #fff;
-    color: #{{ site.color.primary }
-}
-
-;
-background: #fff;
+    color: #{{ site.color.primary }};
+    background: #fff;
 }
 
 .floating-label-form-group {
@@ -316,7 +285,7 @@ background: #fff;
     border-radius: 0;
     font-size: 1.5em;
     background: 0 0;
-    box-shadow: none !important;
+    box-shadow: none!important;
     resize: none;
 }
 
@@ -331,10 +300,10 @@ background: #fff;
     vertical-align: middle;
     vertical-align: baseline;
     opacity: 0;
-    -webkit-transition: top .3s ease, opacity .3s ease;
-    -moz-transition: top .3s ease, opacity .3s ease;
-    -ms-transition: top .3s ease, opacity .3s ease;
-    transition: top .3s ease, opacity .3s ease;
+    -webkit-transition: top .3s ease,opacity .3s ease;
+    -moz-transition: top .3s ease,opacity .3s ease;
+    -ms-transition: top .3s ease,opacity .3s ease;
+    transition: top .3s ease,opacity .3s ease;
 }
 
 .floating-label-form-group::not(:first-child) {
@@ -348,10 +317,7 @@ background: #fff;
 }
 
 .floating-label-form-group-with-focus label {
-    color: #{{ site.color.primary }
-}
-
-;
+    color: #{{ site.color.primary }};
 }
 
 form .row:first-child .floating-label-form-group {
@@ -368,10 +334,7 @@ footer h3 {
 
 footer .footer-above {
     padding-top: 50px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
+    background-color: #{{ site.color.secondary }};
 }
 
 footer .footer-col {
@@ -380,10 +343,7 @@ footer .footer-col {
 
 footer .footer-below {
     padding: 25px 0;
-    background-color: #{{ site.color.secondary-dark }
-}
-
-;
+    background-color: #{{ site.color.secondary-dark }};
 }
 
 .btn-social {
@@ -467,33 +427,24 @@ footer .footer-below {
     width: 1px;
     height: 75px;
     margin-left: 35px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform: rotate(45deg);
--ms-transform: rotate(45deg);
-transform: rotate(45deg);
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
 }
 
 .portfolio-modal .close-modal .lr .rl {
     z-index: 1052;
     width: 1px;
     height: 75px;
-    background-color: #{{ site.color.secondary }
-}
-
-;
--webkit-transform: rotate(90deg);
--ms-transform: rotate(90deg);
-transform: rotate(90deg);
+    background-color: #{{ site.color.secondary }};
+    -webkit-transform: rotate(90deg);
+    -ms-transform: rotate(90deg);
+    transform: rotate(90deg);
 }
 
 .navbar-nav>.active>a {
-    background-color: #{{ site.color.secondary-dark }
-}
-
- !important;
+    background-color: #{{ site.color.secondary-dark }} !important;
 }
 
 /* Fix modal mouse wheel issues */
@@ -504,23 +455,18 @@ transform: rotate(90deg);
 }
 
 .skill-container {
-    width: 100%;
-    /* Full width */
-    background-color: #ddd;
-    /* Grey background */
-    margin: 5px;
+  width: 100%; /* Full width */
+  background-color: #ddd; /* Grey background */
+  margin: 5px;
 }
 
 .skills-list {
-    text-align: right;
-    /* Right-align text */
-    padding-top: 10px;
-    /* Add top padding */
-    padding-bottom: 10px;
-    /* Add bottom padding */
-
+  text-align: right; /* Right-align text */
+  padding-top: 10px; /* Add top padding */
+  padding-bottom: 10px; /* Add bottom padding */
+  
 }
 
 .list {
-    list-style: none
+    list-style: none;
 }
