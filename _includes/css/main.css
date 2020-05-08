@@ -458,12 +458,14 @@ footer .footer-below {
   width: 100%; /* Full width */
   background-color: #ddd; /* Grey background */
   margin: 5px;
+  border-radius: 25px;
 }
 
 .skills-list {
-  text-align: right; /* Right-align text */
+  text-align: center; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
+  color: #{{site.color.primary}};
   
 }
 
