@@ -115,7 +115,7 @@ header .intro-text .skills {
     }
 
     header .intro-text .name {
-        font-size: 4.75em;
+        font-size: 3em;
     }
 
     header .intro-text .skills {
@@ -460,9 +460,8 @@ footer .footer-below {
   background-color: #ddd; /* Grey background */
 }
 
-.skills {
+.skills-list {
   text-align: right; /* Right-align text */
   padding-top: 10px; /* Add top padding */
   padding-bottom: 10px; /* Add bottom padding */
-  color: black; /* White text color */
 }
