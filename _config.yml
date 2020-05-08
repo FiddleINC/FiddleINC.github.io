@@ -1,16 +1,16 @@
 # Site settings
-title: Bill Martin
-email: bill@billmartin.io
+title: Prachurjya Biswas
+email: biswasprachurjya@gmail.com
 url: http://fiddleinc.github.io
-description: "Full-Stack Web Developer, Musician, and Book Enthusiast."
-meta_author: Bill Martin
+description: "Software Engineer, Music Producer, and Book Enthusiast."
+meta_author: Prachurjya Biswas
 
 about:
   header: About
   content:
-      left: By day, I code payment, enrollment, and quoting web applications for some of the industry's top health insurance companies, whilst striving for <a href="http://blog.codinghorror.com/a-pragmatic-quick-reference/" target="_new">Pragmatic Programmer</a> perfection.
-      right: By night, I play guitar in three bands, camp, kayak, hike, play video games, read fantasy, sci-fi, & programming books, and ponder Life, The Universe, and Everything.
-      bottom: I live in Manchester, NH.
+      left: Currently a student of Chemical Engineering at IIT Kharagpur, India. Highly skilled in UI/UX Development using React and Redux.
+      right: Also worked on core backend development tasks including SDK Development, REST API Development etc.
+      bottom: Soon starting work in Sony Japan as an Software Engineer in the Playstation Department
   interests:
     header: Interests as of Late
     content:
