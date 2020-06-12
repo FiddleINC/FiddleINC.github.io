@@ -4,8 +4,6 @@ title: Developing a Simple Server in Go
 category: blog
 ---
 
-> Before I start this blog, I want to welcome all of you to **Code Slate**, a platform where I write gibberish about computers. It may be shitty codebase, low level desgin standards or my stupid OSS Ideas. I have always not found the best source of everything at one place, so I decided to condense all my knowledge in one small write up such as this. So I hope you find it intersting
-
 **Go**, devloped by the big boy, **Google** soon rose to prominence in the Backend world thanks to, of course, big boy *Google*. For the last couple of years, since its inception, major IT companies are moving towards this newbie in their development and why not.
 
 In a year of me using the language, I really feel the Old and New coming together in one entity. I started out with C++ and moved onto scripting using Javascript, and I really dig the easiness of the latter and the detailing of the former. 
